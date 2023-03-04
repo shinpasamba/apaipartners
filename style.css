@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: gray;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header a {
+  color: gray;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header a:hover {
+  color: navy;
+}
+
+.services {
+  padding: 40px;
+  text-align: center;
+}
+
+.services h2 {
+  color: navy;
+  margin-bottom: 20px;
+}
+
+.services p {
+  margin: 0;
+}
+
+.services .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.services .col {
+  width: 30%;
+}
+
+.footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.fade-link {
+  transition: opacity 1.2s ease;
+}
+
+.fade-link:hover {
+  opacity: 0.7;
+}
